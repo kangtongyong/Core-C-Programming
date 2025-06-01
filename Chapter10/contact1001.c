@@ -33,7 +33,7 @@ void printContact(contact1001 ct)
 	printf("년도: %d \n", ct.year);
 }
 
-int isEqualContactPtr(contact1001 * a, contact1001 * b)
+int isEqualContactPtr(contact1001 *a, contact1001 *b)
 {
 	if (a->year == b->year && a->gender == b->gender &&
 		strcmp(a->name, b->name) == 0 &&
@@ -45,7 +45,7 @@ int isEqualContactPtr(contact1001 * a, contact1001 * b)
 	return 0;
 }
 
-void printContactPtr(contact1001 * ct)
+void printContactPtr(contact1001 *ct)
 {
 	//이름: 000
 	//전번: 00000000000
