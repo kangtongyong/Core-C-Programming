@@ -102,6 +102,7 @@ int assignment1018(void)
 			printf("잘못된 곡 번호입니다.\n");
 			i--;
 		}
+
 	}
 	return 0;
 }
